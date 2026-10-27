@@ -67,6 +67,17 @@ The code includes several helper methods to perform specific tasks:
 
 The main method instantiates the `FlipMatchCardGame` class and runs the game by invoking the constructor within the `SwingUtilities.invokeLater()` method.
 
+## ▶️ How to Run
+
+The source code is in [`src/flipmatchcardgame/FlipMatchCardGame.java`](src/flipmatchcardgame/FlipMatchCardGame.java). It needs Java (JDK 8 or newer).
+
+```bash
+javac -d out src/flipmatchcardgame/FlipMatchCardGame.java
+java -cp out flipmatchcardgame.FlipMatchCardGame
+```
+
+The game loads its card images (`pic1.png`, `pic2.png`, …) from the folder you run it from, so place the images there before starting.
+
 ## How to Play
 
 1. Run the Java program to start the game.
