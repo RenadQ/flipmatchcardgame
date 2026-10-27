@@ -76,7 +76,7 @@ javac -d out src/flipmatchcardgame/FlipMatchCardGame.java
 java -cp out flipmatchcardgame.FlipMatchCardGame
 ```
 
-The game loads its card images (`pic1.png`, `pic2.png`, …) from the folder you run it from, so place the images there before starting.
+Run it from the project root: the game loads its card images from the [`assets/`](assets) folder.
 
 ## How to Play
 
